@@ -5,4 +5,4 @@ COPY . /app
 WORKDIR /app
 RUN pip3 install -r requirements.txt
 RUN export FLASK_APP=Test.py
-CMD ["flask run"]
+CMD ["flask", "run"]
