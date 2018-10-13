@@ -4,5 +4,5 @@ RUN apt-get install -y python3 python3-pip
 COPY . /app
 WORKDIR /app
 RUN pip3 install Flask
-ENTRYPOINT ["python"]
+ENTRYPOINT ["python3"]
 CMD ["Test.py"]
