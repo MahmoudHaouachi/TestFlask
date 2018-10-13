@@ -5,6 +5,4 @@ COPY . /app
 WORKDIR /app
 RUN pip3 install -r requirements.txt
 RUN export FLASK_APP=Test.py
-RUN export LC_ALL=C.UTF-8
-RUN export LANG=C.UTF-8
 CMD ["flask", "run"]
